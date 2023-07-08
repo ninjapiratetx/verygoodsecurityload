@@ -1,5 +1,5 @@
 # verygoodsecurityload
-This is the load tests of the api provided.  It used K6 to test and is written in Typescript.
+This is the load tests of the api provided in coding ecercise.  It used K6 to test and is written in Typescript.
 For the functional test see: verygoodsecurity
 
 # how to install k6
