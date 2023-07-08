@@ -20,8 +20,18 @@ getPostById.perf-spec.ts - test is a smaller load test just 1 vue over 1 minute 
 getPostByUserId.load-spec.ts - test is a load test with 50 vues total hitting the server on the call get https://jsonplaceholder.typicode.com/posts?userId=1 
 getPostByuserId.perf-spec.ts - test is a smaller load test just 1 vue over 1 minute hitting`the server on the call get https://jsonplaceholder.typicode.com/posts?userId=1 
 postPosts.load-perf.ts -  test is a load test with 50 vues total hitting the server on the call post https://jsonplaceholder.typicode.com/posts 
-postPosts.perf-spec.ts - test is a smaller load test just 1 vue over 1 minute hitting`the server on the call post https://jsonplaceholder.typicode.com/posts 
+postPost.perf-spec.ts - test is a smaller load test just 1 vue over 1 minute hitting`the server on the call post https://jsonplaceholder.typicode.com/posts 
 
 # the screenshots
 getPostByid.load.spec.ts
-![Alt text](/imgs/getPostById.load.png?raw=true "getPostById.load.spec.ts")
+![Alt text](/imgs/getPostById.load.png?raw=true "getPostById.load-spec.ts")
+getPostById.perf-spec.ts
+![Alt text](/imgs/getPostById.perf.png?raw=true "getPostById.perf-spec.ts")
+getPostByUserId.load-spec.ts
+![Alt text](/imgs/getPostByUserId.load.png?raw=true "getPostByUserId.load-spec.ts")
+getPostByUserId.perf.ts
+![Alt text](/imgs/getPostByUserId.perf.png?raw=true "getPostByUserId.perf-spec.ts")
+postPosts.load-spec.ts
+![Alt text](/imgs/postPosts.load.png?raw=true "postPosts.load-spec.ts")
+postPost.perf.ts
+![Alt text](/imgs/postPost.perf.png?raw=true "postPost.perf-spec.ts")
