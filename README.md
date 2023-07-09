@@ -22,7 +22,7 @@ getPostByuserId.perf-spec.ts - test is a smaller load test just 1 vue over 1 min
 postPosts.load-perf.ts -  test is a load test with 50 vues total hitting the server on the call post https://jsonplaceholder.typicode.com/posts 
 postPost.perf-spec.ts - test is a smaller load test just 1 vue over 1 minute hitting`the server on the call post https://jsonplaceholder.typicode.com/posts 
 
-# the screenshots
+# the screenshots of the results
 getPostByid.load.spec.ts
 ![Alt text](/imgs/getPostById.load.png?raw=true "getPostById.load-spec.ts")
 getPostById.perf-spec.ts
